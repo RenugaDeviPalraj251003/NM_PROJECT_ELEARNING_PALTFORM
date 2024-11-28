@@ -1,0 +1,72 @@
+.card-content {
+  padding: 16px;
+  overflow: hidden; /* Prevents overflow */
+}
+
+.card-content h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.course-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 20px; /* Adds consistent space between cards */
+}
+
+.card {
+  width: 500px;
+  height: 600px; /* Ensures all cards are the same size */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.card .img-container {
+  width: 100%;
+  height: 200px; /* Fixed height for the image container */
+  display: flex;
+  justify-content: center; /* Align images in a row starting from the left */
+  align-items: center;
+  flex-wrap: nowrap; /* Prevent wrapping to maintain horizontal flow */
+  overflow-x: auto; /* Allows horizontal scrolling if too many images */
+  gap: 5px; /* Adds space between images */
+  padding: 5px;
+  background-color: #f5f5f5; /* Optional: Add a background color to distinguish the container */
+}
+
+.card img {
+  width: auto; /* Allow images to maintain their original aspect ratio */
+  height: 190px; /* Ensure a uniform height for all images */
+  object-fit: cover;
+  align-items: center; /* Ensures the image fills the space without distortion */
+}
+
+.card-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  flex-grow: 1; /* Ensure the content takes available space */
+  overflow: hidden; /* Prevent content overflow */
+}
+
+/* Ensure the content for all cards is aligned at the same level */
+.course-card-container .card-content {
+  min-height: 150px; /* Set a minimum height to ensure uniformity across all cards */
+}

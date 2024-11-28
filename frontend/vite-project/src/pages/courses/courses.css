@@ -1,0 +1,41 @@
+.courses {
+    padding: 80px 0;
+    text-align: center;
+    min-height: 60vh;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows multiple course cards to wrap in rows */
+    gap: 20px; /* Adds space between the cards */
+    padding: 20px; /* Add padding to avoid tight edges */
+}
+
+.course-card {
+    min-width: 300px; /* Set a fixed minimum width for each course card */
+    max-width: 350px; /* Ensures a maximum width for each card */
+    flex-shrink: 0; /* Prevent the cards from shrinking */
+    display: flex;
+    flex-direction: column; /* Makes sure that content stacks vertically */
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevents content from overflowing outside the card */
+    height: auto; /* Allows cards to adjust height according to content */
+}
+
+h2 {
+    font-size: 32px;
+    color: #8a4baf;
+    margin-bottom: 30px;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping of cards into rows */
+    padding: 20px;
+}
