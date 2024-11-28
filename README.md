@@ -20,7 +20,7 @@ An intuitive and scalable e-learning platform designed to deliver online educati
 ---
 
 ## 🖥️ **Demo**
-🌐 [https://drive.google.com/file/d/1h87O5Lr_WDomdKh2RwsJG3Yn10Nljn6O/view?usp=sharing](#)  
+🌐 [View Demo on Google Drive](https://drive.google.com/file/d/1h87O5Lr_WDomdKh2RwsJG3Yn10Nljn6O/view?usp=sharing)
 
 
 ---
